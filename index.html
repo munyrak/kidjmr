@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+        .img-container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .no {
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(242, 31, 31);
+            color: white;
+            font-size: 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+            box-shadow: 5px 3px 10px black;
+        }
+        
+        .yes {
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(7, 7, 226);
+            color: white;
+            font-size: 20px;
+            padding: 10px 25px;
+            font-weight: bold;
+            box-shadow: 5px 3px 10px black;
+        }
+        img {
+            width: 300px;
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        .no1{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="img-container">
+        <img src="img/gife.gif" alt="" class="img1 active" id="img1">
+        <img src="img/iloveu.gif" alt="" class="img1" id="img2">
+        <img src="img/fight.gif" alt="" class="img1" id="img3">
+    </div>
+    <h1>Do you love me?</h1>
+    <div class="button">
+        <button class="no">No</button>
+        <button class="yes">Yes</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
